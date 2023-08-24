@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-[#FCFCFC]">
+    <main id="main" class="px-6 h-screen relative">
+      <div class="flex justify-center items-center h-screen">
+        <label class="swap swap-flip text-9xl">
+          <input type="checkbox" />
+
+          <div id="btn" class="swap-on relative group ">
+            <div
+                class="chat-bubble chat-bubble-secondary text-sm absolute right-[-100px] top-20 hidden group-hover:flex"
+              >
+                Don't Click me <br>😾😾😾😾😾
+              </div>
+            <img src="./anime-anxious.gif" alt="" />
+          </div>
+          <div id="btn-1" class="swap-off w-80 relative group">
+            <div class="chat chat-start">
+              <div
+                class="chat-bubble chat-bubble-primary text-sm absolute right-[-60px] top-20 hidden group-hover:flex"
+              >
+                Don't Click me
+              </div>
+            </div>
+            <img src="./anime-girl.gif" alt="" />
+          </div>
+        </label>
+      </div>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
